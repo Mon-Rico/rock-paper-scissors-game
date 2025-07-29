@@ -1,1 +1,1 @@
-# tic-tac-toe-game
+# rock-paper-scissors-game
