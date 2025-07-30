@@ -1,6 +1,10 @@
 console.log("Hello World");
 console.log("Hello Sunshine, The Earth Says Hello!");
 
+//Two Global variables to keep track of scores.
+let computerScore = 0;
+let humanScore = 0;
+
 //Create new function named: getComputerChoice
 //getComputerChoice will randomly return one of 3 choices: Rock, Paper or Scissors in string form
 function getComputerChoice(){
@@ -23,3 +27,14 @@ function getComputerChoice(){
 		console.log("Random Number was not chosen correctly");
 	}
 }
+getComputerChoice();
+
+//Create a function that returns one of the valid choices: 'Rock' 'Paper' or 'Scissor' after prompting the user.
+function getHumanchoice(){
+	let humanChoice = '';
+	return console.log(humanChoice = prompt("Enter a choice of 'Rock', 'Paper' or 'Scissor'?"));
+
+}
+getHumanchoice();
+
+//Create a function that takes two parameters, the computerChoice and humanChoice as arguments.
